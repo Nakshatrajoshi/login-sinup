@@ -6,7 +6,7 @@ import java.lang.Exception;
 public class booking {
     public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
-        System.out.println(" choose the value ");
+        System.out.println(" choose the value  "+"1. Sinup"+"2. login");
          int a = sc.nextInt();
          if(a==1) {
              Sinup f = new Sinup();
